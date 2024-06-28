@@ -1,0 +1,1395 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/harsha/ontologies/2013/8/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/harsha/ontologies/2013/8/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjustment_Louvre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_Conditioner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Change32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrease1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrease2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decrease3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Display_Panel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Down_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_Auto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan_Speed_Mid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mode_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mode_Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#On/Off_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power_Off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power_On"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remote_Display_Panel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Run"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Run_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signal_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signal_Transmitting_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Mode_Off"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_Mode_On"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swing_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swing_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch_Off_Timer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch_On_Timer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_+_button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_-_button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_Display"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature_Setting_Display"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Setting_Display"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timer_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timer_Marker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timer_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Up_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_accessory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_component"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_instrument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_naccessory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_precondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_purpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_subaction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_theme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_accessory_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_component_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_naccessory_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_purpose_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_subaction_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adjustment_Louvre1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Air_Conditioner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Off"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#On"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adjustment_Louvre"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjustment_Louvre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_Conditioner"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_Conditioner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_purpose"/>
+            <Class IRI="#Regulate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change1"/>
+        <Class IRI="#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <ObjectUnionOf>
+                <Class IRI="#Decrease1"/>
+                <Class IRI="#Increase1"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Temperature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change2"/>
+        <Class IRI="#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <Class IRI="#Change2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Fan_Speed_Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Fan_Speed_Auto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change21"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Fan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <Class IRI="#Change2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Fan_Speed_Auto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Fan_Speed_High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change22"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Fan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <Class IRI="#Change2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Fan_Speed_High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Fan_Speed_Mid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change23"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Fan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <Class IRI="#Change2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Fan_Speed_Mid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Fan_Speed_Low"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change24"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Fan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change3"/>
+        <Class IRI="#Change"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change31"/>
+        <Class IRI="#Change3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Change32"/>
+        <Class IRI="#Change3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <Class IRI="#Decrease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Temperature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease2"/>
+        <Class IRI="#Decrease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decrease3"/>
+        <Class IRI="#Decrease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Display_Panel"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Display_Panel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Down_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Down_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Auto"/>
+        <Class IRI="#Fan_Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_High"/>
+        <Class IRI="#Fan_Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Low"/>
+        <Class IRI="#Fan_Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Marker"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan_Speed_Mid"/>
+        <Class IRI="#Fan_Speed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <Class IRI="#Increase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Temperature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase2"/>
+        <Class IRI="#Increase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Increase3"/>
+        <Class IRI="#Increase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode_Marker"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#On/Off_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#On/Off_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_Indicator"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_Off"/>
+        <Class IRI="#Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_Off"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_On"/>
+        <Class IRI="#Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Power_On"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push1"/>
+        <Class IRI="#Push"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#On/Off_Button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push2"/>
+        <Class IRI="#Push"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Temperature_+_button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push3"/>
+        <Class IRI="#Push"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Temperature_-_button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push4"/>
+        <Class IRI="#Push"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push4"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Fan_Speed_Button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push5"/>
+        <Class IRI="#Push"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulate"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Run"/>
+                <Class IRI="#Set1"/>
+                <Class IRI="#Set2"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote_Display_Panel"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote_Display_Panel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Change1"/>
+                <Class IRI="#Change2"/>
+                <Class IRI="#Change3"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run_Indicator"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Run_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <Class IRI="#Set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_Off"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <Class IRI="#Set"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_agent"/>
+            <Class IRI="#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_instrument"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_precondition"/>
+            <Class IRI="#Power_On"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_result"/>
+            <Class IRI="#Power_Off"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subaction"/>
+            <Class IRI="#Push1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_theme"/>
+            <Class IRI="#Air_Conditioner"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal_Indicator"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal_Transmitting_Indicator"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal_Transmitting_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Indicator"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Marker"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Mode"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Mode_Off"/>
+        <Class IRI="#Sleep_Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_Mode_On"/>
+        <Class IRI="#Sleep_Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swing_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swing_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swing_Mode"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch_Off_Timer"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch_On_Timer"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_+_button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_+_button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_-_button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_-_button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Display"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Display"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Setting_Display"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature_Setting_Display"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Setting_Display"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Setting_Display"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timer_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timer_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timer_Marker"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timer_Marker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote_Display_Panel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timer_Time"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Up_Button"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Up_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_component_of"/>
+            <Class IRI="#Remote"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Adjustment_Louvre"/>
+        <NamedIndividual IRI="#Adjustment_Louvre1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Air_Conditioner"/>
+        <NamedIndividual IRI="#Air_Conditioner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fan_Speed"/>
+        <NamedIndividual IRI="#Auto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Cool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Fan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Feel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Heat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fan_Speed"/>
+        <NamedIndividual IRI="#High"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fan_Speed"/>
+        <NamedIndividual IRI="#Low"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fan_Speed"/>
+        <NamedIndividual IRI="#Mid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sleep_Mode"/>
+        <NamedIndividual IRI="#Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Swing_Mode"/>
+        <NamedIndividual IRI="#Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Switch_Off_Timer"/>
+        <NamedIndividual IRI="#Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Switch_On_Timer"/>
+        <NamedIndividual IRI="#Off"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#On"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sleep_Mode"/>
+        <NamedIndividual IRI="#On"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Swing_Mode"/>
+        <NamedIndividual IRI="#On"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Switch_Off_Timer"/>
+        <NamedIndividual IRI="#On"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Switch_On_Timer"/>
+        <NamedIndividual IRI="#On"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_component"/>
+        <NamedIndividual IRI="#Air_Conditioner1"/>
+        <NamedIndividual IRI="#Adjustment_Louvre1"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_component"/>
+        <ObjectProperty IRI="#is_component_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_purpose_of"/>
+        <ObjectProperty IRI="#has_purpose"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_subaction_of"/>
+        <ObjectProperty IRI="#has_subaction"/>
+    </InverseObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
